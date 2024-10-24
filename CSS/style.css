@@ -1,0 +1,117 @@
+body{
+    color: black;
+    background-color: rgb(17, 17, 49);
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+    
+}
+
+.navbar{
+    background-color: rgb(178, 178, 206);
+} 
+
+.navbar {
+    display: flex;
+    align-items: center; 
+    width: 100%; 
+}
+
+.logo {
+    margin-right: auto; 
+}
+
+nav {
+    flex-grow: 1; 
+    text-align: center; 
+}
+
+nav ul {
+    display: flex;
+    justify-content: center; 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+}
+
+nav ul li {
+    margin-left: 20px; 
+}
+
+.title {
+    background: url("../Img/IMG_3166.jpeg");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    font-family: "open sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease;
+    height: 90vh;
+    background-blend-mode: overlay; 
+  }  
+  h1{
+    text-align: center;
+    font-size: 100px;
+    color: #cce8eb;
+    box-shadow: 10px 10px 10px black;
+    background-color: #00000088
+  }
+  .P1{
+    position: absolute;
+    top: 245px;
+    text-align: center;
+    font-size: 50px;
+    color: #cce8eb;
+    background-color: #00000088
+
+  }
+
+.Div1 img:hover{
+  transform: rotate(359deg) scale(2);
+  background: none;
+  border-radius: 50%;
+  border: 0.5rem solid red;
+}
+
+.Div1 img{
+  height: 250px;
+  transition: 0.8s;
+  width: 300px
+ 
+}
+
+.div{
+  width: 200px;
+  height: 150px;
+  display: flex;
+  
+ 
+}
+
+.Div1{
+  border: 10px solid #971111;
+    min-height: 600px;
+    width: 100%;
+}
+
+#colombeA { 
+  display: flex;
+ flex-wrap: wrap ;
+ justify-content: center;
+} 
+
+.premieresImages{
+  display: flex;
+  justify-content: center;
+} 
+.deuxiemesImages{
+  display: flex;
+  justify-content: center;
+}
+
+
